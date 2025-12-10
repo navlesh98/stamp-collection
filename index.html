@@ -1,0 +1,117 @@
+<!doctype html>  
+<html lang="en">  
+<head>  
+  <meta charset="utf-8" />  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />  
+  <title>World Stamp Collection</title>  
+  <meta name="description" content="A personal gallery of stamps collected from around the world." />  
+  <link rel="stylesheet" href="styles.css" />  
+  <link rel="manifest" href="manifest.webmanifest" />  
+  <link rel="icon" href="icons/favicon.png" />  
+</head>  
+<body>  
+  <a class="skip-link" href="#gallery">Skip to gallery</a>  
+  
+  <header class="site-header" role="banner">  
+    <h1 aria-label="World Stamp Collection">World Stamp Collection</h1>  
+    <p class="tagline">Explore stamps by country, year, theme, and more.</p>  
+  
+    <form id="controls" class="controls" role="search" aria-label="Filter and search stamps" onsubmit="return false;">  
+      <div class="control-group">  
+        <label for="search">Search</label>  
+        <input type="search" id="search" name="search" placeholder="Search title, country, tags…" autocomplete="off" />  
+      </div>  
+      <div class="control-group">  
+        <label for="filter-country">Country</label>  
+        <select id="filter-country" name="country">  
+          <option value="all">All countries</option>  
+        </select>  
+      </div>  
+      <div class="control-group">  
+        <label for="filter-year">Year</label>  
+        <select id="filter-year" name="year">  
+          <option value="all">All years</option>  
+        </select>  
+      </div>  
+      <div class="control-group">  
+        <label for="filter-theme">Theme</label>  
+        <select id="filter-theme" name="theme">  
+          <option value="all">All themes</option>  
+        </select>  
+      </div>  
+      <div class="control-group">  
+        <label for="sort-by">Sort</label>  
+        <select id="sort-by" name="sort">  
+          <option value="year-desc">Year (newest)</option>  
+          <option value="year-asc">Year (oldest)</option>  
+          <option value="country-asc">Country (A–Z)</option>  
+          <option value="title-asc">Title (A–Z)</option>  
+        </select>  
+      </div>  
+      <div class="control-group checkbox-group">  
+        <label>  
+          <input type="checkbox" id="show-favorites" />  
+          Favorites only  
+        </label>  
+      </div>  
+      <div class="control-group checkbox-group">  
+        <label>  
+          <input type="checkbox" id="theme-toggle" />  
+          Dark mode  
+        </label>  
+      </div>  
+      <div class="control-actions">  
+        <button type="button" id="clear-filters" class="secondary">Clear filters</button>  
+      </div>  
+    </form>  
+  </header>  
+  
+  <main id="main" class="main" role="main">  
+    <div class="results-bar" aria-live="polite" aria-atomic="true">  
+      <span id="results-count">Loading stamps…</span>  
+    </div>  
+  
+    <div id="gallery" class="gallery-grid" role="list" aria-label="Stamp gallery"></div>  
+  </main>  
+  
+  <div id="modal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="modal-title" aria-modal="true">  
+    <div class="modal-content" role="document">  
+      <button class="modal-close" id="modal-close" aria-label="Close details">✕</button>  
+      <div class="modal-body">  
+        <div class="modal-image-wrap">  
+          <img id="modal-image" src="" alt="" />  
+        </div>  
+        <div class="modal-details">  
+          <h2 id="modal-title"></h2>  
+          <dl class="detail-list">  
+            <div><dt>Country</dt><dd id="detail-country"></dd></div>  
+            <div><dt>Year</dt><dd id="detail-year"></dd></div>  
+            <div><dt>Theme</dt><dd id="detail-theme"></dd></div>  
+            <div><dt>Catalog</dt><dd id="detail-catalog"></dd></div>  
+            <div><dt>Face value</dt><dd id="detail-face"></dd></div>  
+            <div><dt>Condition</dt><dd id="detail-condition"></dd></div>  
+            <div><dt>Tags</dt><dd id="detail-tags"></dd></div>  
+            <div><dt>Description</dt><dd id="detail-description"></dd></div>  
+          </dl>  
+          <div class="modal-actions">  
+            <button id="modal-fav" class="fav-btn" aria-pressed="false">☆ Add to favorites</button>  
+          </div>  
+        </div>  
+      </div>  
+    </div>  
+    <div class="modal-backdrop" id="modal-backdrop"></div>  
+  </div>  
+  
+  <footer class="site-footer" role="contentinfo">  
+    <p>© <span id="year"></span> Your Name. Proudly curated from travels around the world.</p>  
+    <p>Tip: update data/stamps.json to add new stamps and place images in the images/ folder.</p>  
+  </footer>  
+  
+  <script src="script.js" defer></script>  
+  <script>  
+    if ('serviceWorker' in navigator) {  
+      navigator.serviceWorker.register('service-worker.js').catch(()=>{});  
+    }  
+  </script>  
+</body>  
+</html>  
