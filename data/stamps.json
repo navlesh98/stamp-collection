@@ -1,0 +1,194 @@
+[  
+  {  
+    "id": "us-liberty-2019",  
+    "title": "Liberty Forever",  
+    "country": "United States",  
+    "year": 2019,  
+    "theme": ["Monuments", "Freedom"],  
+    "catalogNumber": "Scott 5341",  
+    "faceValue": "Forever",  
+    "condition": "Mint",  
+    "description": "Statue of Liberty forever stamp issued in 2019.",  
+    "tags": ["USA", "Liberty"],  
+    "image": {  
+      "thumb": "https://placehold.co/400x500?text=USA+Liberty+2019",  
+      "full": "https://placehold.co/800x1000?text=USA+Liberty+2019"  
+    }  
+  },  
+  {  
+    "id": "uk-queen-2016",  
+    "title": "Machin Definitive",  
+    "country": "United Kingdom",  
+    "year": 2016,  
+    "theme": ["Portraits", "Royalty"],  
+    "catalogNumber": "SG U2968",  
+    "faceValue": "1st",  
+    "condition": "Used",  
+    "description": "Classic Machin head definitive stamp.",  
+    "tags": ["UK", "Queen", "Machin"],  
+    "image": {  
+      "thumb": "https://placehold.co/400x500?text=UK+Machin",  
+      "full": "https://placehold.co/800x1000?text=UK+Machin"  
+    }  
+  },  
+  {  
+    "id": "jp-sakura-2020",  
+    "title": "Sakura Blossoms",  
+    "country": "Japan",  
+    "year": 2020,  
+    "theme": ["Flora"],  
+    "catalogNumber": "JSCA 543",  
+    "faceValue": "84¥",  
+    "condition": "Mint",  
+    "description": "Cherry blossoms commemorative.",  
+    "tags": ["Japan", "Flowers"],  
+    "image": {  
+      "thumb": "https://placehold.co/400x500?text=Japan+Sakura",  
+      "full": "https://placehold.co/800x1000?text=Japan+Sakura"  
+    }  
+  },  
+  {  
+    "id": "in-gandhi-1969",  
+    "title": "Mahatma Gandhi Centenary",  
+    "country": "India",  
+    "year": 1969,  
+    "theme": ["Leaders", "History"],  
+    "catalogNumber": "India Post 469",  
+    "faceValue": "20p",  
+    "condition": "Used",  
+    "description": "Commemorative stamp marking Gandhi's birth centenary.",  
+    "tags": ["India", "Gandhi"],  
+    "image": {  
+      "thumb": "https://placehold.co/400x500?text=India+Gandhi+1969",  
+      "full": "https://placehold.co/800x1000?text=India+Gandhi+1969"  
+    }  
+  },  
+  {  
+    "id": "br-amazon-2015",  
+    "title": "Amazon Wildlife",  
+    "country": "Brazil",  
+    "year": 2015,  
+    "theme": ["Fauna", "Nature"],  
+    "catalogNumber": "",  
+    "faceValue": "R$1.40",  
+    "condition": "Mint",  
+    "description": "Features diverse wildlife from the Amazon rainforest.",  
+    "tags": ["Brazil", "Animals"],  
+    "image": {  
+      "thumb": "https://placehold.co/400x500?text=Brazil+Amazon",  
+      "full": "https://placehold.co/800x1000?text=Brazil+Amazon"  
+    }  
+  },  
+  {  
+    "id": "fr-louvre-2008",  
+    "title": "Louvre Museum",  
+    "country": "France",  
+    "year": 2008,  
+    "theme": ["Museums", "Architecture"],  
+    "catalogNumber": "",  
+    "faceValue": "€0.85",  
+    "condition": "Used",  
+    "description": "Commemorates the Louvre and its iconic glass pyramid.",  
+    "tags": ["France", "Art"],  
+    "image": {  
+      "thumb": "https://placehold.co/400x500?text=France+Louvre",  
+      "full": "https://placehold.co/800x1000?text=France+Louvre"  
+    }  
+  },  
+  {  
+    "id": "de-brandenburg-2012",  
+    "title": "Brandenburg Gate",  
+    "country": "Germany",  
+    "year": 2012,  
+    "theme": ["Monuments", "History"],  
+    "catalogNumber": "",  
+    "faceValue": "€0.55",  
+    "condition": "Mint",  
+    "description": "Depicts the iconic Brandenburg Gate.",  
+    "tags": ["Germany"],  
+    "image": {  
+      "thumb": "https://placehold.co/400x500?text=Germany+Brandenburg",  
+      "full": "https://placehold.co/800x1000?text=Germany+Brandenburg"  
+    }  
+  },  
+  {  
+    "id": "ca-maple-2017",  
+    "title": "Maple Leaf",  
+    "country": "Canada",  
+    "year": 2017,  
+    "theme": ["National Symbols"],  
+    "catalogNumber": "",  
+    "faceValue": "$1",  
+    "condition": "Mint",  
+    "description": "A definitive stamp featuring the maple leaf.",  
+    "tags": ["Canada", "Symbols"],  
+    "image": {  
+      "thumb": "https://placehold.co/400x500?text=Canada+Maple",  
+      "full": "https://placehold.co/800x1000?text=Canada+Maple"  
+    }  
+  },  
+  {  
+    "id": "au-koala-2014",  
+    "title": "Koala",  
+    "country": "Australia",  
+    "year": 2014,  
+    "theme": ["Fauna"],  
+    "catalogNumber": "",  
+    "faceValue": "$1",  
+    "condition": "Used",  
+    "description": "Cute koala definitive.",  
+    "tags": ["Australia", "Animals"],  
+    "image": {  
+      "thumb": "https://placehold.co/400x500?text=Australia+Koala",  
+      "full": "https://placehold.co/800x1000?text=Australia+Koala"  
+    }  
+  },  
+  {  
+    "id": "ru-space-1961",  
+    "title": "First Man in Space",  
+    "country": "Russia",  
+    "year": 1961,  
+    "theme": ["Space", "History"],  
+    "catalogNumber": "",  
+    "faceValue": "10k",  
+    "condition": "Used",  
+    "description": "Celebrates Yuri Gagarin's historic flight.",  
+    "tags": ["Russia", "Space"],  
+    "image": {  
+      "thumb": "https://placehold.co/400x500?text=Russia+Space",  
+      "full": "https://placehold.co/800x1000?text=Russia+Space"  
+    }  
+  },  
+  {  
+    "id": "cn-greatwall-1990",  
+    "title": "Great Wall",  
+    "country": "China",  
+    "year": 1990,  
+    "theme": ["Monuments"],  
+    "catalogNumber": "",  
+    "faceValue": "20¥",  
+    "condition": "Mint",  
+    "description": "The Great Wall depicted in classic engraving style.",  
+    "tags": ["China", "Monuments"],  
+    "image": {  
+      "thumb": "https://placehold.co/400x500?text=China+Great+Wall",  
+      "full": "https://placehold.co/800x1000?text=China+Great+Wall"  
+    }  
+  },  
+  {  
+    "id": "za-table-mountain-2005",  
+    "title": "Table Mountain",  
+    "country": "South Africa",  
+    "year": 2005,  
+    "theme": ["Nature", "Landscapes"],  
+    "catalogNumber": "",  
+    "faceValue": "R2.75",  
+    "condition": "Mint",  
+    "description": "Scenic view of Table Mountain.",  
+    "tags": ["South Africa", "Landscape"],  
+    "image": {  
+      "thumb": "https://placehold.co/400x500?text=South+Africa+Table+Mountain",  
+      "full": "https://placehold.co/800x1000?text=South+Africa+Table+Mountain"  
+    }  
+  }  
+]  
