@@ -1,4 +1,4 @@
-const CACHE_NAME = 'stamp-collection-v1';  
+const CACHE_NAME = 'stamp-collection-v2';  
 const ASSETS = [  
   './',  
   './index.html',  
@@ -39,4 +39,5 @@ self.addEventListener('fetch', (evt) => {
       caches.match(evt.request).then(cached => cached || fetch(evt.request))  
     );  
   }  
+
 });  
